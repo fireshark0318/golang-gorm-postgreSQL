@@ -1,4 +1,43 @@
 
+# Golang and GORM - User Registration and Email Verification
+
+In this comprehensive guide, you will learn how to secure a Golang RESTful API with JSON Web Tokens and Email verification. We will start by registering the user, verifying the user's email address, logging in the registered user, and logging out the authenticated user.
+
+![Golang and GORM - User Registration and Email Verification](https://codevoweb.com/wp-content/uploads/2022/08/Golang-and-GORM-User-Registration-and-Email-Verification.webp)
+
+## Topics Covered
+
+- Golang and GORM JWT Authentication Overview
+- Create the Database Models with GORM
+- Database Migration with GORM
+- Generate and Verify the Password with Bcrypt
+- Sign and Verify the JWT (JSON Web Tokens)
+    - Update the Environment Variables File
+    - Validate the Variables with Viper
+    - Generate the JSON Web Tokens
+    - Verify the JSON Web Tokens
+- Create the SMTP Credentials
+- Setup the HTML Templates
+    - Add the HTML Email Base Template
+    - Add the HTML Email CSS Styles
+    - Add the Email Verification Template
+    - Create the Email Utility Function
+- Create the Controller Functions
+    - Function to Generate the Verification Code
+    - User Registration Controller
+    - Verify Email Controller
+    - Login User Controller
+    - Logout User Controller
+    - Get User Profile Controller
+- Create the Authentication Guard
+- Create Routes for the Controllers
+    - Auth Routes
+    - User Routes
+- Register the Routes and Start the Golang Server
+
+Read the entire article here: [https://codevoweb.com/golang-and-gorm-user-registration-email-verification](https://codevoweb.com/golang-and-gorm-user-registration-email-verification)
+=======
+
 # How to Setup Golang GORM RESTful API Project with Postgres
 
 This article will guide you on how you can set up a Golang project with the GORM library and PostgreSQL to build CRUD RESTful API to perform the basic Create/Get/Update/Delete operations
@@ -77,7 +116,6 @@ This article will teach you how to create a CRUD RESTful API in a Golang environ
     - Delete a Record
 
 Read the entire article here: [https://codevoweb.com/build-restful-crud-api-with-golang](https://codevoweb.com/build-restful-crud-api-with-golang)
-
 
 
 Articles in this series:

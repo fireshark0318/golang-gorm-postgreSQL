@@ -8,6 +8,19 @@ import (
 
 type User struct {
 
+	ID               uuid.UUID `gorm:"type:uuid;default:uuid_generate_v4();primary_key"`
+	Name             string    `gorm:"type:varchar(255);not null"`
+	Email            string    `gorm:"uniqueIndex;not null"`
+	Password         string    `gorm:"not null"`
+	Role             string    `gorm:"type:varchar(255);not null"`
+	Provider         string    `gorm:"not null"`
+	Photo            string    `gorm:"not null;default:'default.png'"`
+	VerificationCode string
+	Verified         bool      `gorm:"not null"`
+	CreatedAt        time.Time `gorm:"not null"`
+	UpdatedAt        time.Time `gorm:"not null"`
+=======
+
 	ID uuid.UUID `gorm:"type:uuid;default:uuid_generate_v4();primary_key"`
 	// ID     uint   `gorm:"primary_key"`
 	Name      string `gorm:"type:varchar(255);not null"`
@@ -48,7 +61,7 @@ type SignUpInput struct {
 	Email           string `json:"email" binding:"required"`
 	Password        string `json:"password" binding:"required,min=8"`
 	PasswordConfirm string `json:"passwordConfirm" binding:"required"`
-	Photo           string `json:"photo" binding:"required"`
+	Photo           string `json:"photo"`
 }
 
 type SignInInput struct {
