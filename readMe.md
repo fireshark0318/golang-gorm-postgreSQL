@@ -1,4 +1,36 @@
 
+# API with Golang + GORM + PostgreSQL: Access & Refresh Tokens
+
+This article will teach you how to secure a Golang application with access and refresh tokens using GORM, Postgres, Docker, and Docker-compose. Also, you will learn how to use the RS256 algorithm with private and public keys to sign the tokens.
+
+![API with Golang + GORM + PostgreSQL: Access & Refresh Tokens](https://codevoweb.com/wp-content/uploads/2022/08/API-with-Golang-GORM-PostgreSQL-Access-Refresh-Tokens.webp)
+
+## Topics Covered
+
+- Golang, Gin & GORM JWT Authentication Overview
+- JWT Authentication Example with Golang and GORM
+- Generate the Private and Public Keys
+- Load and Validate the Environment Variables
+- Create the Database Models with GORM
+- Run the Database Migration with GORM
+- Hash and Verify the Passwords with Bcrypt
+- Sign and Verify the RS256 JSON Web Tokens
+    - Function to Generate the Tokens
+    - Function to Verify the Tokens
+- Create the Authentication Route Controllers
+    - Register User Controller
+    - Login User Controller
+    - Refresh Access Token Controller
+    - Logout Controller
+- Create a Middleware Guard
+- Create a User Controller
+    - Authentication Routes
+    - User Routes
+- Add the Routes to the Gin Middleware Stack
+
+Read the entire article here: [https://codevoweb.com/golang-gorm-postgresql-user-registration-with-refresh-tokens](https://codevoweb.com/golang-gorm-postgresql-user-registration-with-refresh-tokens)
+=======
+
 # Golang and GORM - User Registration and Email Verification
 
 In this comprehensive guide, you will learn how to secure a Golang RESTful API with JSON Web Tokens and Email verification. We will start by registering the user, verifying the user's email address, logging in the registered user, and logging out the authenticated user.
