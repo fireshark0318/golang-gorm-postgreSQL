@@ -1,4 +1,28 @@
 
+# How to Setup Golang GORM RESTful API Project with Postgres
+
+This article will guide you on how you can set up a Golang project with the GORM library and PostgreSQL to build CRUD RESTful API to perform the basic Create/Get/Update/Delete operations
+
+![How to Setup Golang GORM RESTful API Project with Postgres](https://codevoweb.com/wp-content/uploads/2022/08/How-to-Setup-Golang-GORM-RESTful-API-Project-with-Postgres.webp)
+
+## Topics Covered
+
+- What is an ORM?
+- Setup the Golang Project
+    - Initialize the Golang Project
+    - Create a PostgreSQL Docker Container
+    - Load and Validate the Environment Variables
+    - Create a Utility Function to Connect to PostgreSQL
+- Data Modeling and Migration with GORM
+    - Creating the Database Model with GORM
+    - Install the UUID OSSP Module for PostgreSQL
+    - Migrating the Schema with GORM
+- Create the Golang Server with Gin Gonic
+- Testing the Golang API
+
+Read the entire article here: [https://codevoweb.com/setup-golang-gorm-restful-api-project-with-postgres](https://codevoweb.com/setup-golang-gorm-restful-api-project-with-postgres)
+=======
+
 # Forgot/Reset Passwords in Golang with SMTP HTML Email
 
 This article will teach you how to add a secure forgot/reset password feature to a Golang RESTful API application. We will generate the HTML Email templates with the standard Golang template package and send them via SMTP with the Gomail package.
@@ -53,6 +77,7 @@ This article will teach you how to create a CRUD RESTful API in a Golang environ
     - Delete a Record
 
 Read the entire article here: [https://codevoweb.com/build-restful-crud-api-with-golang](https://codevoweb.com/build-restful-crud-api-with-golang)
+
 
 
 Articles in this series:
